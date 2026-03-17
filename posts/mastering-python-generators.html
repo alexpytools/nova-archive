@@ -1,0 +1,75 @@
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="UTF-8">
+<title>Mastering Python Generators</title>
+
+<link rel="stylesheet" href="../style.css">
+
+</head>
+
+<body>
+
+<div class="post-container">
+
+<h1>Mastering Python Generators</h1>
+
+<div class="post-date">17 March 2026</div>
+<div class="reading">1 min read</div>
+
+<div class="tags">
+<span class="tag">#python</span> <span class="tag">#programming</span> <span class="tag">#generators</span> <span class="tag">#memory</span> <span class="tag">#tutorial</span>
+</div>
+
+<div class="post-content">
+
+<div class="post-content">
+
+<p>Python generators are a type of iterable, like lists or tuples, but they <strong>generate items on the fly</strong> instead of storing them all in memory. This makes them perfect for working with large datasets or streams of data.</p>
+
+<p>You create a generator using a function with the <code>yield</code> keyword:</p>
+
+<pre><code>def my_generator(n):
+    for i in range(n):
+        yield i*i
+
+gen = my_generator(5)
+for value in gen:
+    print(value)
+</code></pre>
+
+<p>Output:</p>
+
+<pre><code>0
+1
+4
+9
+16
+</code></pre>
+
+<p>Notice that the values are produced <em>one at a time</em> and not stored all together. This is memory-efficient and allows processing very large datasets without using a lot of RAM.</p>
+
+<p>You can also use <strong>generator expressions</strong>, similar to list comprehensions:</p>
+
+<pre><code>squares = (x*x for x in range(10))
+for s in squares:
+    print(s)
+</code></pre>
+
+<p>Generators are widely used in Python for file reading, data pipelines, and lazy computations. Learning to use them effectively can make your Python programs faster, more efficient, and more scalable.</p>
+
+</div>
+
+
+</div>
+
+</div>
+
+</body>
+
+</html>
+

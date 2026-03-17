@@ -1,12 +1,28 @@
 [
   {
-    "title": "test post",
-    "desc": "first test",
+    "title": "Understanding Python Decorators",
+    "desc": "A clear explanation of Python decorators and how they can improve your code structure and readability.",
     "date": "17 March 2026",
     "tags": [
-      "test",
-      "hello"
+      "python",
+      "programming",
+      "decorators",
+      "functions",
+      "tutorial"
     ],
-    "url": "posts/test-post.html"
+    "url": "posts/understanding-python-decorators.html"
+  },
+  {
+    "title": "Mastering Python Generators",
+    "desc": "Learn how Python generators work and why they are useful for memory-efficient data processing.",
+    "date": "17 March 2026",
+    "tags": [
+      "python",
+      "programming",
+      "generators",
+      "memory",
+      "tutorial"
+    ],
+    "url": "posts/mastering-python-generators.html"
   }
 ]

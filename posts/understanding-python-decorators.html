@@ -1,0 +1,66 @@
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="UTF-8">
+<title>Understanding Python Decorators</title>
+
+<link rel="stylesheet" href="../style.css">
+
+</head>
+
+<body>
+
+<div class="post-container">
+
+<h1>Understanding Python Decorators</h1>
+
+<div class="post-date">17 March 2026</div>
+<div class="reading">1 min read</div>
+
+<div class="tags">
+<span class="tag">#python</span> <span class="tag">#programming</span> <span class="tag">#decorators</span> <span class="tag">#functions</span> <span class="tag">#tutorial</span>
+</div>
+
+<div class="post-content">
+
+<p>Python decorators are a powerful tool that allow you to modify the behavior of a function or class without changing its source code.</p>
+
+<p>In simple terms, a decorator is a function that takes another function as an argument, adds some functionality, and returns a new function. This can help make your code more modular, reusable, and readable.</p>
+
+<p>Here's a basic example:</p>
+
+<pre><code>def decorator(func):
+    def wrapper():
+        print("Before the function runs")
+        func()
+        print("After the function runs")
+    return wrapper
+
+@decorator
+def say_hello():
+    print("Hello!")
+
+say_hello()
+</code></pre>
+
+<p>The <code>@decorator</code> syntax is a shorthand for <code>say_hello = decorator(say_hello)</code>. This makes it easy to apply the same decorator to multiple functions.</p>
+
+<p>Decorators can also take arguments, be stacked, and be used with classes. They are commonly used for logging, authentication, caching, and more.</p>
+
+<p>Understanding decorators can greatly improve your ability to write clean and professional Python code.</p>
+
+</div>
+
+
+</div>
+
+</div>
+
+</body>
+
+</html>
+
