@@ -1,0 +1,12 @@
+[
+  {
+    "title": "test post",
+    "desc": "first test",
+    "date": "17 March 2026",
+    "tags": [
+      "test",
+      "hello"
+    ],
+    "url": "posts/test-post.html"
+  }
+]
